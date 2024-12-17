@@ -1,24 +1,27 @@
-.Main {
- 
-  display: flex;
-  overflow: hidden;
-  max-height: 100vh;
+/*poster*/
+* {
+  padding: 0;
+  box-sizing: content-box;
+  border-radius: 8px;
+  max-width: 100%;
+  
 }
 .Main .container {
   background-color: rgb(255, 255, 255);
-  display: flex;
-  width: 100vw;
+  margin: 100;
+  
+  
+
 }
 .Main .container .outlet {
-  background-color: rgb(247, 247, 247);
-  flex-grow: 3;
-  padding: 1rem;
-}
-.Main .container .navigation {
   
-  background-color: #f4bc36;
-  padding-top: 40px;
-  height: 90vh;
+  padding: 10rem;
+  padding-top: 0ch;
+}
+
+.Main .container .navigation {
+ 
+
 }
 .Main .container .navigation ul {
   list-style: none;

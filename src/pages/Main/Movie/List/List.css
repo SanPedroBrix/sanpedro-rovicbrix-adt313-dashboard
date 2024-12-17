@@ -38,7 +38,7 @@
   
   .movie-lists {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
     font-size: 14px;
   }
   

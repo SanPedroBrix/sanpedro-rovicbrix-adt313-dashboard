@@ -301,7 +301,7 @@ const Form = () => {
         setError("");
       }}
       onKeyPress={handleKeyPress}
-      placeholder="Enter movie title..."
+      placeholder="Search movie title..."
       disabled={isLoading}
       className="search-input"
     />
@@ -376,7 +376,7 @@ const Form = () => {
         <div className="movie-details">
           <div className="form-fields">
           <img
-            className="poster-image"
+            className="poster"
             src={`https://image.tmdb.org/t/p/original/${selectedMovie.poster_path}`}
             alt={formData.title}
           />

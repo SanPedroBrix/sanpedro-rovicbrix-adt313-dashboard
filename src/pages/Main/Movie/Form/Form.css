@@ -1,13 +1,12 @@
-/* General Container for Styling */
 .container {
   margin: 20px auto;
+  font-family: Arial, sans-serif;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
+  
 }
 
-/* Form Title */
+/* Title */
 h1 {
   text-align: center;
   font: bold;
@@ -49,6 +48,7 @@ button {
   font-size: 14px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  border-collapse: separate;
 }
 
 button:hover {
@@ -115,20 +115,22 @@ button:disabled {
   background-color: #f1f1f1;
 }
 
-/* Poster Image */
-.poster-image {
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* Posters Section*/
+.poster {
+  width: 1000px;
+    height: 1000;
+    margin-left: 200px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    max-width: fit-content;
 }
 
-/* Cast Section with Scroll */
+/* Cast Section*/
 .cast-section {
   margin-top: 30px;
   background-color: #e9ecef;
-  padding: 15px;
+  padding: 100px;
   border-radius: 10px;
   max-height: 300px;  /* Set the maximum height to trigger scroll */
   overflow-y: auto;   /* Enable vertical scrolling */
@@ -151,6 +153,12 @@ button:disabled {
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 5px;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
 }
 
 .cast-member button {
