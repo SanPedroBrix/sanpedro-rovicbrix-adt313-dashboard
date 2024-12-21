@@ -1,14 +1,12 @@
 * {
-  padding: 0;
+  padding: 100;
   box-sizing: content-box;
-  border-radius: 8px;
   max-width: 100%;
 }
 .Main .container {
   background-color: rgb(255, 255, 255);
   margin: 100;
-  
-  
+
 
 }
 .Main .container .outlet {
