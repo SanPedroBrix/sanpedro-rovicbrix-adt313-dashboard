@@ -27,7 +27,7 @@
   .register-form button {
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #f4bc36;
     color: white;
     border: none;
     border-radius: 5px;
@@ -35,13 +35,13 @@
   }
   
   .register-form button:hover {
-    background-color: #218838;
+    background-color: #f4bc36;
   }
   selector {
     background-image: url('path/to/your/image.jpg');
-    background-size: cover; /* Adjust to cover the entire element */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   
   

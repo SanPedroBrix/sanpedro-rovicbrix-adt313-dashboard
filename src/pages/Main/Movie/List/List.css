@@ -1,4 +1,3 @@
-/* General container styling */
 .lists-container {
     margin: 40px auto;
     padding: 20px;
@@ -7,8 +6,6 @@
     background-color: #f8f9fa;
     font-family: Arial, sans-serif;
   }
-  
-  /* Create button container */
   .create-container {
     text-align: right;
     margin-bottom: 20px;
@@ -31,7 +28,6 @@
     background-color: #FDB813;
   }
   
-  /* Table container */
   .table-container {
     overflow-x: auto;
   }
@@ -60,8 +56,6 @@
   .movie-lists tr:hover {
     background-color: #f1f1f1;
   }
-  
-  /* Action buttons */
   .movie-lists button {
     padding: 5px 10px;
     font-size: 12px;
@@ -89,8 +83,6 @@
   .movie-lists button:last-of-type:hover {
     background-color: #c82333;
   }
-  
-  /* Responsive styling */
   @media (max-width: 600px) {
     .movie-lists th,
     .movie-lists td {

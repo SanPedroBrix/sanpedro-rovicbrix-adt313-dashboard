@@ -12,22 +12,18 @@ import Form from './pages/Main/Movie/Form/Form';
 
 const router = createBrowserRouter([
   {
-    path: '/',               // The root path points to the login page
+    path: '/',            
     element: <Login />,
   },
   {
-    path: '/register',        // Add the Register page route
+    path: '/register',        
     element: <Register />,
   },
   {
     path: '/main',
     element: <Main />,
     children: [
-      //Temporarily disabled the dashboard route
-      // {
-      //   path: '/main/dashboard',
-      //   element: <Dashboard />,
-      // },
+      
       {
         path: '/main/movies',
         element: <Movie />,

@@ -59,7 +59,6 @@ function Login() {
       .catch((e) => {
         console.log(e);
         setStatus('idle');
-        // alert(e.response.data.message);
       });
   };
 
