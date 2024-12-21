@@ -39,9 +39,9 @@
   }
   selector {
     background-image: url('path/to/your/image.jpg');
-    background-size: cover; /* Adjust to cover the entire element */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   
   

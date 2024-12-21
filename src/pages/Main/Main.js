@@ -23,9 +23,9 @@ function Main() {
     <div className='Main'>
         <div className='navigation'>
           <ul>
-            {/* <li>
-              <a href='/main/dashboard'>Dashboard</a>
-            </li> */}
+            {
+              
+            }
             <li>
               <a href='/main/movies/home'>Home</a>
             </li>
