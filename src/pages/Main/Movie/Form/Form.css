@@ -159,12 +159,12 @@ button:disabled {
 }
 .cast-section button {
   margin-top: 10px;
-  background-color: #28a745;
+  background-color: #d4a434;
   color: white;
 }
 
 .cast-section button:hover {
-  background-color: #218838;
+  background-color: #d4a434;
 }
 
 @media (max-width: 600px) {

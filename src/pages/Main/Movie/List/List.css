@@ -1,8 +1,18 @@
+.container1 {
+  display: flex;                 
+    justify-content: space-between; 
+    
+}
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
 .lists-container {
     margin: 40px auto;
-    padding: 20px;
-    max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 3500px;
     background-color: #f8f9fa;
     font-family: Arial, sans-serif;
   }
@@ -39,6 +49,7 @@
   }
   
   .movie-lists th,
+  
   .movie-lists td {
     text-align: left;
     padding: 10px;
